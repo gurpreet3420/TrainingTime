@@ -36,10 +36,7 @@
 				<version>3.0.0-M3</version>
 				<configuration>
 					<systemPropertyVariables>
-						<property>
-							<name>URL</name>
-							<value>Hello</value>
-						</property>
+						<URL>${URL}</URL>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
