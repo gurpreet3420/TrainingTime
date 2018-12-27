@@ -19,6 +19,7 @@ public class SumTest {
 	public void testCase1(@Optional("Default Value if not found in testng.xml") String param1) {
 		Assert.assertEquals(obj.sum(2, 3), 5, param1);
 		System.out.println(param1);
+		System.out.println("Printing it"+System.getProperty("URL"));
 
 	}
 

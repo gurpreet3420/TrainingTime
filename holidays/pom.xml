@@ -16,7 +16,7 @@
 	</properties>
 
 	<dependencies>
-		
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -25,4 +25,30 @@
 		</dependency>
 
 	</dependencies>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M3</version>
+				<configuration>
+					<systemPropertyVariables>
+						<property>
+							<name>URL</name>
+							<value>${URL}</value>
+						</property>
+					</systemPropertyVariables>
+					<suiteXmlFiles>
+						<suiteXmlFile>/Users/gurpreet_singh10/Documents/TrainingTime/holidays/testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+
+
+		</plugins>
+
+	</build>
 </project>
