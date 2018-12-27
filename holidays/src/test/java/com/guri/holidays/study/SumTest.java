@@ -1,6 +1,6 @@
 package com.guri.holidays.study;
 
-import org.testng.AssertJUnit;
+import org.omg.CORBA.Environment;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
@@ -20,6 +20,8 @@ public class SumTest {
 		Assert.assertEquals(obj.sum(2, 3), 5, param1);
 		System.out.println(param1);
 		System.out.println("Printing it"+System.getProperty("URL"));
+		System.out.println("Printing itt"+System.getProperty("URL1"));
+
 
 	}
 

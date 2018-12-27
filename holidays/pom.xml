@@ -38,13 +38,14 @@
 					<systemPropertyVariables>
 						<property>
 							<name>URL</name>
-							<value>${URL}</value>
+							<value>Hello</value>
 						</property>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
+
 			</plugin>
 
 
