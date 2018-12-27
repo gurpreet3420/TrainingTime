@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60" started-at="2018-12-26T01:25:04Z" finished-at="2018-12-26T01:25:04Z">
+  <suite name="Suite" duration-ms="71" started-at="2018-12-27T09:02:29Z" finished-at="2018-12-27T09:02:29Z">
     <groups>
       <group name="Regression">
         <method signature="SumTest.testCase2()[pri:1, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase2" class="com.guri.holidays.study.SumTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test name="Test" duration-ms="60" started-at="2018-12-26T01:25:04Z" finished-at="2018-12-26T01:25:04Z">
+    <test name="Test" duration-ms="71" started-at="2018-12-27T09:02:29Z" finished-at="2018-12-27T09:02:29Z">
       <class name="com.guri.holidays.study.SumTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="setup" is-config="true" duration-ms="8" started-at="2018-12-25T17:25:04Z" finished-at="2018-12-25T17:25:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="setup" is-config="true" duration-ms="9" started-at="2018-12-27T01:02:29Z" finished-at="2018-12-27T01:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase1" duration-ms="7" started-at="2018-12-25T17:25:04Z" finished-at="2018-12-25T17:25:04Z">
+        <test-method status="PASS" signature="testCase1(java.lang.String)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase1" duration-ms="10" started-at="2018-12-27T01:02:29Z" finished-at="2018-12-27T01:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase1 -->
-        <test-method status="PASS" signature="testCase3(int, int, int)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase3" duration-ms="4" started-at="2018-12-25T17:25:04Z" data-provider="dataProvider" finished-at="2018-12-25T17:25:04Z">
+        <test-method status="PASS" signature="testCase3(int, int, int)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase3" duration-ms="3" started-at="2018-12-27T01:02:29Z" data-provider="dataProvider" finished-at="2018-12-27T01:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase3 -->
-        <test-method status="PASS" signature="testCase3(int, int, int)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase3" duration-ms="4" started-at="2018-12-25T17:25:04Z" data-provider="dataProvider" finished-at="2018-12-25T17:25:04Z">
+        <test-method status="PASS" signature="testCase3(int, int, int)[pri:0, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase3" duration-ms="4" started-at="2018-12-27T01:02:29Z" data-provider="dataProvider" finished-at="2018-12-27T01:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase3 -->
-        <test-method status="PASS" signature="testCase2()[pri:1, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase2" duration-ms="13" started-at="2018-12-25T17:25:04Z" finished-at="2018-12-25T17:25:04Z">
+        <test-method status="PASS" signature="testCase2()[pri:1, instance:com.guri.holidays.study.SumTest@51efea79]" name="testCase2" duration-ms="13" started-at="2018-12-27T01:02:29Z" finished-at="2018-12-27T01:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCase2 -->

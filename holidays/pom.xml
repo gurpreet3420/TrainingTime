@@ -42,7 +42,7 @@
 						</property>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<suiteXmlFile>/Users/gurpreet_singh10/Documents/TrainingTime/holidays/testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
